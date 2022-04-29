@@ -100,8 +100,8 @@ USER-AGENT,LINE%20TV*,ForeignMedia
 DOMAIN-SUFFIX,linetv.tw,ForeignMedia
 DOMAIN,d3c7rimkq79yfu.cloudfront.net,ForeignMedia
 # LiTV
-DOMAIN-SUFFIX,litv.tv,ForeignMedia
-DOMAIN,litvfreemobile-hichannel.cdn.hinet.net,ForeignMedia
+# DOMAIN-SUFFIX,litv.tv,ForeignMedia
+# DOMAIN,litvfreemobile-hichannel.cdn.hinet.net,ForeignMedia
 # Netflix
 USER-AGENT,Argo*,ForeignMedia
 DOMAIN-KEYWORD,nflx,ForeignMedia
