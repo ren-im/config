@@ -38,8 +38,8 @@ DOMAIN-SUFFIX,bbc.co.uk,ForeignMedia
 DOMAIN-SUFFIX,bbci.co.uk,ForeignMedia
 DOMAIN-SUFFIX,vod-hls-uk-live.akamaized.net,ForeignMedia
 # DAZN
-USER-AGENT,DAZN*,,ForeignMedia
-DOMAIN-SUFFIX,dazn.com,,ForeignMedia
+#USER-AGENT,DAZN*,,ForeignMedia
+#DOMAIN-SUFFIX,dazn.com,,ForeignMedia
 # Deezer
 USER-AGENT,Deezer*,ForeignMedia
 DOMAIN-SUFFIX,deezer.com,Deezer
@@ -100,8 +100,8 @@ USER-AGENT,LINE%20TV*,ForeignMedia
 DOMAIN-SUFFIX,linetv.tw,ForeignMedia
 DOMAIN,d3c7rimkq79yfu.cloudfront.net,ForeignMedia
 # LiTV
-# DOMAIN-SUFFIX,litv.tv,ForeignMedia
-# DOMAIN,litvfreemobile-hichannel.cdn.hinet.net,ForeignMedia
+DOMAIN-SUFFIX,litv.tv,ForeignMedia
+DOMAIN,litvfreemobile-hichannel.cdn.hinet.net,ForeignMedia
 # Netflix
 USER-AGENT,Argo*,ForeignMedia
 DOMAIN-KEYWORD,nflx,ForeignMedia
