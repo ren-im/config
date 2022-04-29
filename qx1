@@ -1,0 +1,17 @@
+# PROXY
+
+
+# VideoPROXY
+
+
+# Netflix
+DOMAIN-SUFFIX,netflix,Netflix,HK,TW,SG,JP,US
+DOMAIN-SUFFIX,nflx,Netflix,HK,TW,SG,JP,US
+
+# HBO
+DOMAIN-SUFFIX,hbo,HBO,HK,TW,SG,JP,US
+
+# Disney
+DOMAIN-SUFFIX,bamgrid,Disney,HK,TW,SG,JP,US
+DOMAIN-SUFFIX,disney,Disney,HK,TW,SG,JP,US
+
