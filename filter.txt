@@ -1,0 +1,43 @@
+static=🔰Proxy, 🇭🇰HK, 🇨🇳TW, 🇸🇬SG, 🇯🇵JP, 🇺🇸US
+static=🎬Netflix, direct, 🔰Proxy, 🇭🇰HK, 🇨🇳TW, 🇸🇬SG, 🇯🇵JP, 🇺🇸US
+static=🎬Disney, direct, 🔰Proxy, 🇭🇰HK, 🇨🇳TW, 🇸🇬SG, 🇯🇵JP, 🇺🇸US
+static=🎬HBO, direct, 🔰Proxy, 🇭🇰HK, 🇨🇳TW, 🇸🇬SG, 🇯🇵JP, 🇺🇸US
+static=🎵TikTok, direct, 🔰Proxy, 🇭🇰HK, 🇨🇳TW, 🇸🇬SG, 🇯🇵JP, 🇺🇸US
+static=🍎Apple, direct, 🔰Proxy, 🇭🇰HK, 🇨🇳TW, 🇸🇬SG, 🇯🇵JP, 🇺🇸US
+static=🇨🇳China, direct, 🔰Proxy, 🇭🇰HK, 🇨🇳TW, 🇸🇬SG, 🇯🇵JP, 🇺🇸US
+static=📡Final, direct, 🔰Proxy, 🇭🇰HK, 🇨🇳TW, 🇸🇬SG, 🇯🇵JP, 🇺🇸US
+static=🇭🇰HK, direct, server-tag-regex=美国|🇭🇰|HK
+static=🇨🇳TW, direct, server-tag-regex=台湾|🇨🇳|TW
+static=🇸🇬SG, direct, server-tag-regex=新加坡|🇸🇬|SG
+static=🇯🇵JP, direct, server-tag-regex=日本|🇯🇵|JP
+static=🇺🇸US, direct, server-tag-regex=美国|🇺🇸|US
+
+# Netflix
+HOST-KEYWORD,netflix,🎬Netflix
+HOST-KEYWORD,nflx,🎬Netflix
+
+# HBO
+HOST-KEYWORD,hbo,🎬HBO
+
+# Disney
+HOST-KEYWORD,bamgrid,🎬Disney
+HOST-KEYWORD,disney,🎬Disney
+
+# TikTok
+HOST-KEYWORD,tiktok,🎵TikTok
+HOST-KEYWORD,tik-tok,🎵TikTok
+HOST-KEYWORD,byteoversea,🎵TikTok
+
+# Apple
+HOST-KEYWORD,apple,🍎Apple
+HOST-KEYWORD,icloud,🍎Apple
+
+# China
+ip-cidr, 10.0.0.0/8, direct
+ip-cidr, 127.0.0.0/8, direct
+ip-cidr, 172.16.0.0/12, direct
+ip-cidr, 192.168.0.0/16, direct
+geoip, cn, 🇨🇳China
+
+# Final
+final, 📡Final
